@@ -1,0 +1,266 @@
+.vjs-animedown-skin {
+  //   border: 1px solid red;
+  //   background: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  //   z-index: 2;
+  .vjs-tech {
+    // border: 1px solid red;
+    background-color: #29303b;
+  }
+  .vjs-volume-panel-vertical {
+    left: 94px !important;
+    top: 5em !important;
+    // border: 1px solid red;
+    width: 60px;
+    height: 50px;
+    .vjs-mute-control {
+      top: 0em;
+    }
+    .vjs-volume-vertical {
+      left: 10px !important;
+      top: -174px;
+      z-index: 2;
+      width: 4em !important;
+      height: 17em !important;
+    }
+  }
+
+  .vjs-control-bar {
+    // border: 1px solid red;
+    height: 143px !important;
+    padding: 0 1em;
+    background: rgba(20, 23, 28, 0);
+    -webkit-background: linear-gradient(
+      0deg,
+      rgba(20, 23, 28, 0.9) 0,
+      rgba(20, 23, 28, 0.738) 19%,
+      rgba(20, 23, 28, 0.541) 34%,
+      rgba(20, 23, 28, 0.382) 47%,
+      rgba(20, 23, 28, 0.278) 56.5%,
+      rgba(20, 23, 28, 0.194) 65%,
+      rgba(20, 23, 28, 0.126) 73%,
+      rgba(20, 23, 28, 0.075) 80.2%,
+      rgba(20, 23, 28, 0.042) 86.1%,
+      rgba(20, 23, 28, 0.021) 91%,
+      rgba(20, 23, 28, 0.008) 95.2%,
+      rgba(20, 23, 28, 0.002) 98.2%,
+      rgba(20, 23, 28, 0)
+    );
+    -moz-background: linear-gradient(
+      0deg,
+      rgba(20, 23, 28, 0.9) 0,
+      rgba(20, 23, 28, 0.738) 19%,
+      rgba(20, 23, 28, 0.541) 34%,
+      rgba(20, 23, 28, 0.382) 47%,
+      rgba(20, 23, 28, 0.278) 56.5%,
+      rgba(20, 23, 28, 0.194) 65%,
+      rgba(20, 23, 28, 0.126) 73%,
+      rgba(20, 23, 28, 0.075) 80.2%,
+      rgba(20, 23, 28, 0.042) 86.1%,
+      rgba(20, 23, 28, 0.021) 91%,
+      rgba(20, 23, 28, 0.008) 95.2%,
+      rgba(20, 23, 28, 0.002) 98.2%,
+      rgba(20, 23, 28, 0)
+    );
+    -ms-background: linear-gradient(
+      0deg,
+      rgba(20, 23, 28, 0.9) 0,
+      rgba(20, 23, 28, 0.738) 19%,
+      rgba(20, 23, 28, 0.541) 34%,
+      rgba(20, 23, 28, 0.382) 47%,
+      rgba(20, 23, 28, 0.278) 56.5%,
+      rgba(20, 23, 28, 0.194) 65%,
+      rgba(20, 23, 28, 0.126) 73%,
+      rgba(20, 23, 28, 0.075) 80.2%,
+      rgba(20, 23, 28, 0.042) 86.1%,
+      rgba(20, 23, 28, 0.021) 91%,
+      rgba(20, 23, 28, 0.008) 95.2%,
+      rgba(20, 23, 28, 0.002) 98.2%,
+      rgba(20, 23, 28, 0)
+    );
+    -o-background: linear-gradient(
+      0deg,
+      rgba(20, 23, 28, 0.9) 0,
+      rgba(20, 23, 28, 0.738) 19%,
+      rgba(20, 23, 28, 0.541) 34%,
+      rgba(20, 23, 28, 0.382) 47%,
+      rgba(20, 23, 28, 0.278) 56.5%,
+      rgba(20, 23, 28, 0.194) 65%,
+      rgba(20, 23, 28, 0.126) 73%,
+      rgba(20, 23, 28, 0.075) 80.2%,
+      rgba(20, 23, 28, 0.042) 86.1%,
+      rgba(20, 23, 28, 0.021) 91%,
+      rgba(20, 23, 28, 0.008) 95.2%,
+      rgba(20, 23, 28, 0.002) 98.2%,
+      rgba(20, 23, 28, 0)
+    );
+    background: linear-gradient(
+      0deg,
+      rgba(20, 23, 28, 0.9) 0,
+      rgba(20, 23, 28, 0.738) 19%,
+      rgba(20, 23, 28, 0.541) 34%,
+      rgba(20, 23, 28, 0.382) 47%,
+      rgba(20, 23, 28, 0.278) 56.5%,
+      rgba(20, 23, 28, 0.194) 65%,
+      rgba(20, 23, 28, 0.126) 73%,
+      rgba(20, 23, 28, 0.075) 80.2%,
+      rgba(20, 23, 28, 0.042) 86.1%,
+      rgba(20, 23, 28, 0.021) 91%,
+      rgba(20, 23, 28, 0.008) 95.2%,
+      rgba(20, 23, 28, 0.002) 98.2%,
+      rgba(20, 23, 28, 0)
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#14171C, endColorstr=#14171C, GradientType=0);
+    display: flex !important;
+    align-items: center;
+    z-index: 3;
+  }
+  .vjs-control {
+    top: 5em;
+    position: absolute;
+    width: 5em;
+    height: 5em;
+  }
+
+  .vjs-fullscreen-control {
+    right: 20px;
+  }
+
+  .vjs-resolution-button {
+    right: 70px;
+    .vjs-resolution-button-label {
+      font-size: 20px;
+      top: 0;
+      position: relative;
+      /* font-size: 1em; */
+      line-height: 2.5em;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      box-sizing: inherit;
+    }
+  }
+
+  .vjs-menu li {
+    font-size: 2.2em;
+  }
+
+  .vjs-time-control {
+    font-size: 2em;
+    right: 0;
+    top: 1px;
+
+    line-height: 1.7em;
+  }
+
+  .vjs-current-time.vjs-time-control {
+    left: 0px;
+    right: auto;
+    height: auto;
+  }
+
+  .vjs-big-play-button {
+    font-size: 10em;
+    line-height: 1.3em;
+    height: 1.5em;
+    width: 1.5em;
+    /* 0.06666em = 2px default */
+    border: 0.06666em solid #fff;
+    /* 0.3em = 9px default */
+    border-radius: 0.8em;
+    /* Align center */
+    left: 50%;
+    top: 50%;
+    margin-left: -0.75em;
+    margin-top: -0.75em;
+    background-color: black;
+  }
+
+  //Progress
+  .vjs-play-progress {
+    background-color: $primary;
+  }
+  .vjs-progress-control.vjs-control {
+    position: absolute;
+    width: auto;
+    top: 1em;
+    padding: 0.5em 0;
+    height: 1.5em;
+    left: 11em;
+    right: 11em;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    -ms-transition: all 0.1s;
+    -o-transition: all 0.1s;
+    transition: all 0.1s;
+
+    &:hover {
+      .vjs-play-progress:before {
+        color: $primary;
+      }
+    }
+    //
+    .vjs-slider {
+      background: rgba(247, 248, 250, 0.5);
+      .vjs-load-progress {
+        background: hsla(0, 0%, 100%, 0.5);
+      }
+    }
+  }
+}
+
+.vjs-animedown-skin .vjs-play-progress:before {
+  font-size: 2.9em;
+  color: $primary;
+  top: -0.433333333333333em;
+}
+
+.vjs-button > .vjs-icon-placeholder:before {
+  font-size: 5.8em;
+  line-height: 0.9;
+}
+.video-js:hover .vjs-big-play-button,
+.video-js .vjs-big-play-button:focus {
+  border-color: #fff;
+  background-color: black;
+}
+
+.vjs-animedown-skin .vjs-progress-holder,
+.vjs-animedown-skin .vjs-progress-holder .vjs-load-progress,
+.vjs-animedown-skin .vjs-progress-holder .vjs-load-progress div,
+.vjs-animedown-skin .vjs-progress-holder .vjs-play-progress {
+  height: 0.6em;
+  // margin-right: 90px !important;
+  // margin-left: 90px !important;
+}
+
+.vjs-volume-bar.vjs-slider-vertical {
+  height: 14em;
+  width: 0.6em;
+}
+.vjs-slider-vertical .vjs-volume-level {
+  width: 0.5em;
+  background-color: $primary;
+}
+.vjs-slider-vertical .vjs-volume-level:before {
+  left: -0.4em;
+  color: $primary;
+}
+.video-js .vjs-volume-level:before {
+  font-size: 1.9em;
+}
+
+.video-js .vjs-time-control {
+  display: block;
+}
+.video-js .vjs-remaining-time {
+  display: none;
+}

@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "animeDown",
+    "slug": "animeDown",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/images/icon.png",
+    "scheme": "animedown",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./src/assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tv.animedown"
+    },
+    "web": {
+      "favicon": "./src/assets/images/favicon.png"
+    },
+    "description": "",
+    "android": {
+      "package": "com.tv.animedown"
+    }
+  }
+}

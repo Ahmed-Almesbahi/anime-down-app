@@ -1,0 +1,13 @@
+:root {
+  --primary: white;
+  --secondary: #2bfead;
+  --background: #3b0e85;
+  --surface: #2c0a64;
+  --surfaceTransparent: #c3a5f2;
+  --error: #fc191c;
+  --black: #1d1d1d;
+  --red: #fc191c;
+  --yellow: #febb2c;
+  --grey: rgba(0, 0, 0, .7);
+  --pink: #f628fc;
+}

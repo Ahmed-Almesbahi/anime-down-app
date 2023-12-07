@@ -1,0 +1,227 @@
+// $primary
+
+.container2 {
+  &::after {
+    content: ' ';
+    position: absolute;
+    width: 5vw;
+    z-index: 1;
+    right: 0;
+    height: 100%;
+    background: linear-gradient(-90deg, $primary, rgba(255, 236, 0, 0));
+  }
+
+  &::before {
+    content: ' ';
+    position: absolute;
+    width: 5vw;
+    z-index: 1;
+    left: 0;
+    height: 100%;
+    background: linear-gradient(-90deg, rgba(255, 236, 0, 0), $primary);
+  }
+}
+
+.itemCard {
+  margin: 30px 5px;
+  padding-bottom: 10px;
+  transition: all 0.5s ease-out;
+
+  .imageOverlay {
+    transition: all 0.5s ease;
+    opacity: 0;
+    background-image: linear-gradient(to bottom,
+        rgba(0, 0, 0, 1),
+        rgba(255, 255, 0, 0),
+        rgba(255, 255, 0, 0));
+    border-radius: 4px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+  }
+
+  .itemCardPicture {
+    transition: all 0.5s ease;
+    border-radius: 4px;
+    width: 100%;
+    height: auto;
+  }
+
+  .itemCardTitle {
+    transition: all 0.5s ease;
+    margin: 0px;
+    margin-top: 15px;
+    line-height: 0px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  .itemCardSubTitle {
+    margin-top: 23px;
+    transition: all 0.5s ease;
+    line-height: 0px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .hoverItemCardInfo {
+    color: white;
+    transition: all 0.5s ease-out;
+  }
+
+  .hoverItemCardInfoContainer {
+    transition: all 0.5s ease;
+    height: 0px;
+    opacity: 0;
+    z-index: 5px;
+  }
+
+  .addToMyListBtn {
+    border: 1px solid white;
+    transition: all 0.5s ease;
+    opacity: 0;
+    height: 0px;
+    border-radius: 50px;
+    position: absolute;
+    top: 0px;
+    z-index: 2;
+    left: 10px;
+    right: 10px;
+  }
+
+  .addToMyListBtnText {
+    transition: all 0.5s ease;
+    opacity: 0;
+    color: white;
+    padding: 0px 20px;
+    margin: 0px;
+  }
+
+  .itemCardBtn {
+    transition: all 0.5s ease;
+    opacity: 0;
+    padding: 0px 0px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+  }
+
+  .itemCardBtnText {
+    opacity: 0;
+    padding: 10px 20px;
+    margin: 0px;
+  }
+
+  .videoTypeTag {
+    transition: all 0.5s ease;
+    background-color: #2c0a64;
+    border-radius: 20px;
+    padding: 2px 8px;
+    margin-right: 5px;
+  }
+
+  .videoTypeTextTag {
+    margin: 0px;
+    transition: all 0.5s ease;
+    font-size: 11px;
+    color: #b19fce;
+  }
+
+  .videoTypeTagHighlight {
+    background-color: #febb2c;
+    border-radius: 20px;
+    padding: 2px 8px;
+    margin-right: 5px;
+  }
+
+  .videoTypeTextTagHighlight {
+    margin: 0px;
+    font-size: 11px;
+    color: #2e2e2e;
+  }
+
+  &:hover {
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    transform: scale(1.05, 1.05);
+
+    .itemCardPicture {
+      background: linear-gradient(to bottom, #17003a 0, rgba(0, 0, 0, 0) 50%);
+      border-radius: 25px !important;
+    }
+
+    .imageOverlay {
+      opacity: 1;
+      border-radius: 25px;
+    }
+
+    .addToMyListBtnText {
+      opacity: 1;
+      padding: 10px 20px;
+    }
+
+    .addToMyListBtn {
+      border: 1px solid white;
+      height: 40px;
+      opacity: 1;
+      top: 10px;
+
+      &:hover {
+        box-shadow: 0 0 10px 0 #fff;
+        background-color: white;
+
+        .addToMyListBtnText {
+          color: #3f4250;
+        }
+      }
+    }
+
+    .hoverItemCardInfo {
+      color: black;
+      transform: translate(10px, -43px);
+    }
+
+    .itemCardTitle {
+      color: rgba(0, 0, 0, 0.9);
+    }
+
+    .itemCardSubTitle {
+      color: rgba(0, 0, 0, 0.7);
+    }
+
+    .hoverItemCardInfoContainer {
+      height: 135px;
+      transform: translateY(0px);
+      opacity: 1;
+      position: absolute;
+    }
+
+    .itemCardBtn {
+      box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1);
+      opacity: 1;
+      bottom: 5px;
+
+      &:hover {
+        background-color: #0fa;
+        box-shadow: 0 0 15px 0 #0fa;
+      }
+    }
+
+    .itemCardBtnText {
+      opacity: 1;
+    }
+
+    .videoTypeTag {
+      background-color: #f1f2f8;
+    }
+
+    .videoTypeTextTag {
+      color: #737788;
+    }
+  }
+}

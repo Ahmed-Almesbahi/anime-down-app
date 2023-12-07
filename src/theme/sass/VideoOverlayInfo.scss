@@ -1,0 +1,92 @@
+$font-stack: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+.video-js .vjs-big-play-button {
+  font-size: 6em;
+  left: 50%;
+  top: 50%;
+  width: 90px;
+  height: 90px;
+  margin-left: -45px;
+  margin-top: -45px;
+  border: none;
+  background-color: rgba(43, 51, 63, 0.7);
+  line-height: 90px;
+  border-radius: 50%;
+  border: none;
+  z-index: 2;
+}
+
+.video-js .vjs-control-bar {
+  z-index: 2;
+}
+
+.video-js .s3bubble-meta-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+.video-js .s3bubble-meta-overlay .s3bubble-meta-overlay-container {
+  margin: 2%;
+  width: 40%;
+  padding: 0;
+  text-align: left;
+}
+
+.video-js .s3bubble-meta-overlay .s3bubble-meta-overlay-container h5 {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 1.3vw;
+  font-weight: 400;
+  text-shadow: 0 1px 4px rgb(0, 0, 0);
+  color: #fff;
+  line-height: 1.3;
+  margin: 0;
+  padding: 0;
+  opacity: 0.9;
+  float: left;
+
+  width: 100%;
+}
+
+.video-js .s3bubble-meta-overlay .s3bubble-meta-overlay-container h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 4vw;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 0 1px 4px rgb(0, 0, 0);
+  margin: 1vw 0;
+  padding: 0;
+  float: left;
+  width: 100%;
+}
+
+.video-js .s3bubble-meta-overlay .s3bubble-meta-overlay-container p {
+  font-family: 'Helvetica', sans-serif;
+  text-shadow: 0 1px 4px rgb(0, 0, 0);
+  font-weight: normal;
+  font-weight: 200;
+  font-size: 1.8vw;
+  line-height: 1.3em;
+  color: #fff;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.s3bubble-meta-overlay-visible {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 1s linear;
+}
+
+.s3bubble-meta-overlay-hidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 1s, opacity 1s linear;
+}

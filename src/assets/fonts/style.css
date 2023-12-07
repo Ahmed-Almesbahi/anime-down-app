@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'NeoSansArabic';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+      src: url('./NeoSansArabic.woff') format('woff');
+      
+         src: url('./NeoSansArabic.eot');
+    src: url('./NeoSansArabic.eot?#iefix') format('embedded-opentype'),
+         url('./NeoSansArabic.woff') format('woff'),
+         url('./NeoSansArabic.ttf') format('truetype'),
+         url('./NeoSansArabic.svg') format('svg'); 
+  }
+  
+   body, i,h1,h2,h3,h4,h5,h6, input, ul, p, a { 
+    font-family: "NeoSansArabic", tahoma !important;
+  }

@@ -1,0 +1,61 @@
+// $primary
+// .darkText{
+//   color: white;
+//   transition: all .5s ease;
+//   &:hover {
+//     color: black
+//   }
+// }
+
+// .showAllForShelfBtn2 {
+//   background-color: green;
+//   // background-color: $primary;
+//   transition: all .5s ease;
+//   z-index: -2;
+//   &:hover {
+//     background-color: red;
+//   }
+// }
+// .showAllForShelfBtn {
+//   // background-color: $primary;
+//   transition: all .5s ease;
+//   z-index: -2;
+//   border: 1px solid white; 
+//   // padding-top: 7px;
+//   // padding-bottom: 7px;
+//   border-radius: 50px;
+//   flex-direction: row;
+//   align-items: center;
+//   justify-content: center;
+//   &:hover {
+//     background-color: white;
+//     .showAllForShelfBtn2 {
+//       color: black;
+//     }
+//   }
+// }
+
+
+.btnDarkOutlined {
+  transition: all .5s ease;
+  border: 1px solid white; 
+  border-radius: 50px;
+  flex-direction: row;
+  align-items: center;
+  .text {
+    color: white
+  }
+  &:hover {
+    background-color: white;
+    .text {
+      color: white
+    }
+  }
+}
+// .btnLightOutlined
+// .btnDarkOutlined
+// .btnLightOutlined
+// .btnDarkContained
+// .btnLightContained
+// .btnDarkContained
+// .btnLightContained

@@ -1,0 +1,146 @@
+@import '../../theme/colors.css';
+
+.headerBG {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  z-index: 300;
+  background: radial-gradient(
+    ellipse at bottom,
+    rgba(121, 22, 221, 0.93),
+    rgba(59, 0, 135, 0.93) 40%,
+    #3b0087
+  );
+  box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.8);
+  border-bottom: 1px solid #7916dd;
+  padding: 0 5vw;
+  flex-direction: row;
+  transition: all 0.3s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;
+  display: flex;
+  /* position: relative;
+    flex-direction: row; */
+  /* -webkit-align-items: flex-end;
+    -moz-align-items: flex-end;
+    -ms-align-items: flex-end;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row; */
+}
+
+.headerBG::before {
+  content: ' ';
+  background: linear-gradient(-90deg, #3b0087, rgba(59, 0, 135, 0));
+  height: 1px;
+  position: absolute;
+  bottom: -1px;
+  right: 0;
+  width: 40vw;
+  background-image: -ms-linear-gradient(-90deg, #3b0087, rgba(59, 0, 135, 0));
+}
+
+.headerBG::after {
+  content: ' ';
+  height: 1px;
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 40vw;
+  background: #3b0087;
+  background-image: -ms-linear-gradient(90deg, #3b0087, rgba(59, 0, 135, 0));
+  background: linear-gradient(90deg, #3b0087, rgba(59, 0, 135, 0));
+  z-index: -1;
+}
+
+.accountDropDownList {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 0px;
+  position: absolute;
+  box-shadow: 5px 6px 9px 2px rgba(0, 0, 0, 0.37);
+  width: 180px;
+  height: 0px;
+  margin: 40px -100px 0px 0px;
+  text-align: right;
+  top: 0;
+  transition: height 0.2s, opacity 0.2s linear, visibility 0.2s;
+  opacity: 0;
+  visibility: hidden;
+  line-height: 8px;
+}
+
+.mainMenuIteam {
+  /* align-items: center; */
+  transition: all 0.2s;
+  /* cursor: pointer; */
+  padding: 15px;
+  /* padding-left: 30px;
+  padding-right: 30px; */
+  justify-content: center;
+  /* align-items: center; */
+  /* flex-direction: row; */
+  position: relative;
+  /* justify-content: center; */
+  /* align-self: center; */
+}
+
+.mainMenuIteam,
+.mainMenuIteam .css-text-901oao {
+  color: var(--surfaceTransparent);
+}
+
+.mainMenuIteam:hover,
+.mainMenuIteam:hover .css-text-901oao {
+  color: white;
+}
+
+.mainMenuIteam:hover .accountDropDownList {
+  opacity: 1;
+  visibility: visible;
+  height: 145px;
+}
+
+.mainMenuIteam:hover .accountIteamDropDownList {
+  margin-top: 14px;
+  opacity: 1;
+}
+
+.logo {
+  height: 50px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.signUp {
+  margin-top: 15px;
+  background-color: var(--yellow);
+  display: inline-table;
+  margin-top: 22px;
+  white-space: nowrap;
+}
+
+.signUp:hover {
+  box-shadow: 0 0 12px 0 var(--yellow);
+}
+
+.accountIteamDropDownList {
+  transition: all 0.2s;
+  opacity: 0;
+  padding: 0px 20px;
+  margin-top: -20px;
+  font-size: 14px;
+  font-family: neo-sans;
+}
+
+.hoverAccountIteamDropDownList p {
+  color: var(--background);
+}
+
+.hoverAccountIteamDropDownList:hover p {
+  color: var(--surfaceTransparent);
+}
+
+input {
+  outline: none !important;
+}
